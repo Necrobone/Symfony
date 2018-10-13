@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "webpack-notifier": "^1.7.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "./node_modules/@symfony/webpack-encore/bin/encore.js dev-server",
+    "dev": "./node_modules/@symfony/webpack-encore/bin/encore.js dev",
+    "watch": "./node_modules/@symfony/webpack-encore/bin/encore.js dev --watch",
+    "build": "./node_modules/@symfony/webpack-encore/bin/encore.js production"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "holderjs": "^2.9.4",
+    "jquery": "3.3.1",
+    "popper.js": "1.12.9"
+  }
+}
